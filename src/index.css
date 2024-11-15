@@ -1,0 +1,488 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #DEDEDE;
+}
+
+.navbar {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: #5F7F98;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #435e75; 
+}
+
+.footer a {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #435e75; 
+}
+
+.dashboard-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.settings-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.expense-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.report-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.budget-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.budget-cls {
+    background-color: #333; 
+    color: #fff; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+ }
+
+.report-cls {
+   background-color: #333; 
+   color: #fff; 
+   display: flex; 
+   flex-direction: column; 
+   align-items: center;
+}
+
+.report-cls h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/* DASHBOARD */
+.unordered  {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* BUDGET PAGE */
+.budget-cls h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-budget { 
+  width: 100%; 
+  max-width: 600px; 
+  margin-bottom: 20px; 
+} 
+
+.budget-container { 
+  display: flex; 
+  justify-content: center;
+   margin-top: 20px; 
+}
+
+.btn-budget {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+.budget-cls h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+   width: 100%; 
+   border-collapse: collapse; 
+   margin-bottom: 20px; 
+} 
+
+th, td { 
+  padding: 12px; text-align: 
+  left; border-bottom: 1px solid #ddd;
+} 
+
+th {
+   background-color: #f4f4f4; 
+   font-weight: bold; 
+} 
+
+tr:nth-child(even) { 
+  background-color: #f9f9f9; 
+} 
+
+tr:hover { 
+  background-color: #f1f1f1;
+} 
+
+td:nth-child(3) { 
+  text-align: right; 
+} 
+
+/* Dark mode styles */
+ .table-dark th { 
+  background-color: #333; 
+  border-bottom: 1px solid #444; 
+} 
+
+.table-dark tr:nth-child(even) { 
+  background-color: #555;
+} 
+
+.table-dark tr:hover { 
+  background-color: #444;
+} 
+
+input { 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px; 
+  padding: 10px; 
+  margin: 5px 0;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  width: 100%; 
+  box-sizing: border-box;
+} 
+
+/* Dark mode input styling */ 
+.table-dark input { 
+  background-color: #444; 
+  color: #fff; 
+  border: 1px solid #555; 
+}
+
+button { 
+  padding: 10px 20px; 
+  background-color: #5F7F98; 
+  border: none; 
+  color: white; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 5px;
+} 
+
+button:hover { 
+  background-color: #6f8da4; 
+}
+
+
+/* END OF BUDGET PAGE */
+
+/* REPORTS PAGE */
+table { 
+   width: 100%;
+   max-width: 600px; 
+   border-collapse: collapse;
+   margin: 20px 0;
+} 
+
+th, td { 
+  padding: 12px; 
+  text-align: left; 
+  font-family: 'Times New Roman', Times, serif;
+} 
+
+th { 
+  background-color: #f4f4f4; 
+  font-weight: bold; 
+  font-family: 'Times New Roman', Times, serif;
+} 
+
+tr:nth-child(even) { 
+  background-color: #f9f9f9; 
+}
+
+tr:hover { 
+  background-color: #f1f1f1;
+} 
+
+td:nth-child(3) { 
+  text-align: right; 
+} 
+
+/* Dark mode styles */ 
+
+.table-dark th { 
+  background-color: #333; 
+  border-bottom: 1px solid #444; 
+} 
+
+.table-dark tr:nth-child(even) { 
+  background-color: #555; 
+} 
+
+.table-dark tr:hover { 
+  background-color: #444; 
+}
+
+/* END OF REPORTS PAGE */
+
+.settings-app {
+  text-align: center;
+}
+
+.settings-app h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.mode-btn {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  background-color: #456279;
+  color: white;
+  border-radius: 5px;
+}
+
+.mode-btn:hover {
+  background-color: #5F7F98;
+}
+
+.footer {
+  background-color: #5F7F98;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-app {
+  text-align: center;
+}
+
+.form-app h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.form-app h3 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.form-app p {
+  text-align: center;
+}
+
+.form ::placeholder {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.form .select {
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  margin-right: 20px;
+  margin-left: 3px;
+  width: 90px;
+}
+
+.form .select:hover {
+  background-color: #5F7F98;
+  color: white;
+}
+
+.form .name-name {
+  margin-right: 20px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 90px;
+}
+
+.form .date-date {
+  margin-right: 20px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 95px;
+}
+
+.form .amount-amount {
+  margin-right: 20px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 90px;
+}
+
+.form .submit-btn {
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #456279;
+  color: white;
+  border-radius: 5px;
+}
+
+.form .submit-btn:hover {
+  background-color: #5F7F98;
+}
+
+.expense-cls {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+   min-height: 100vh; 
+}
+
+.expense-table {
+  margin: 20px 0;
+}
+
+.expense-cls h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/* EXPENSES PAGE */
+
+/* For light mode */
+.table-light {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-light th, .table-light td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+th.amount-header {
+  padding-right: 40px;
+  text-align: right;
+}
+
+.table-light th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table-light tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-light tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-light td:nth-child(4) {
+  text-align: right;
+}
+
+/* For dark mode */
+.table-dark {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.table-dark th, .table-dark td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table-dark th {
+  background-color: #333;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table-dark tr:nth-child(even) {
+  background-color: #555;
+}
+
+.table-dark tr:hover {
+  background-color: #444;
+}
+
+.table-dark td:nth-child(4) {
+  text-align: right;
+}
+
+/* DELETE, SAVE, CANCEL AND UPDATE STYLING */
+.edit-btn {
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 20px;
+  padding-right: 35px;
+  text-align: center;
+}
+
+.delete-btn {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.save-btn {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cancel-btn {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* END OF EXPENSE PAGE */
+
+/* Default style for light mode */
+.table-light {
+  color: black; /* Text color in light mode */
+}
+
+/* Style for dark mode */
+.table-dark {
+  color: white; /* Text color in dark mode */
+}
+
+/* Utility to switch between modes */
+body.dark-mode .table-light {
+  color: white; /* Text color in dark mode */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

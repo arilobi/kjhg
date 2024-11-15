@@ -1,0 +1,86 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2024-11-11",
+      "description": "Groceries",
+      "category": "Food",
+      "amount": 2000
+    },
+    {
+      "id": 2,
+      "date": "2024-11-12",
+      "description": "Electricity Bill",
+      "category": "Utilities",
+      "amount": 1000
+    },
+    {
+      "id": 3,
+      "date": "2024-11-13",
+      "description": "Water Bill",
+      "category": "Utilities",
+      "amount": 1000
+    },
+    {
+      "id": 4,
+      "date": "2024-11-18",
+      "description": "Netflix, Prime Video",
+      "category": "Entertainment Bills",
+      "amount": 2000
+    },
+    {
+      "id": 5,
+      "date": "2024-11-29",
+      "description": "Rent",
+      "category": "Rent",
+      "amount": 40000
+    },
+    {
+      "id": 6,
+      "date": "2024-11-25",
+      "description": "Fuel",
+      "category": "Other",
+      "amount": 2300
+    },
+    {
+      "id": "4fd3",
+      "name": "food",
+      "date": "2024-11-14T00:00:00.000Z",
+      "amount": 200,
+      "transactionType": "food"
+    }
+  ],
+  "budgets": [
+    {
+      "id": 1,
+      "category": "Food",
+      "budgetedAmount": 2000,
+      "spentAmount": 1500
+    },
+    {
+      "id": "00a5",
+      "category": "food",
+      "budget": 2000
+    },
+    {
+      "id": "9deb",
+      "category": "rent",
+      "budget": 50000
+    },
+    {
+      "id": "8f7a",
+      "category": "entertainment",
+      "budget": 700
+    },
+    {
+      "id": "1f1f",
+      "category": "groceries",
+      "budget": 2000
+    },
+    {
+      "id": "0df5",
+      "category": "entertainment",
+      "budget": 700
+    }
+  ]
+}
